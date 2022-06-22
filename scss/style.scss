@@ -1,14 +1,18 @@
 @font-face {
-    font-family:relbold ;
+    font-family: relbold;
     src: url(../font/Raleway-Bold.ttf);
 }
+
 @font-face {
     font-family: regular;
     src: url(../font/OpenSans-Regular.ttf);
 }
+
+
 a {
     text-decoration: none;
 }
+
 .my-sign-style {
     border: 1px solid #fff;
     border-radius: 10%;
@@ -17,98 +21,250 @@ a {
     margin-right: px;
     margin-left: 36px;
 }
+
 .my-marg {
     margin-right: 50px;
 }
+
 .my-logo-marg {
     margin-left: px;
 }
+
 .nav-item {
-    a{
+    a {
         font-family: relbold;
         font-size: 16px;
     }
 }
-.my-sign-style:hover {
-   
-    box-shadow: 0px 0px 12px 0px #ec7c7c;
-  }
 
-.mystyletext {
-    top: 50%;
-    transform: translatey(-50%);
-    color: #f9fafe;
-    text-align: center;
-    p{
-        font-family: regular;
-        font-size: 30px;
-        z-index: 5;
-    }
-    h1 {
-        font-family: relbold;
-        font-size: 72px;
-    }
+.my-sign-style:hover {
+
+    box-shadow: 0px 0px 12px 0px #ec7c7c;
 }
+
+
+
 .myz {
     z-index: 1;
 }
+
 .search {
     width: 770px;
     height: 40px;
     margin: 90px auto;
     border-radius: 3px;
     border: none;
-  }
-  .search input {
-    width: 570px;
+    max-width: 100%;
+}
+
+.search input {
+    width: 60%;
     height: 60px;
     padding: 5px 5px;
     color: #ccc;
     border: none;
     background-color: #fff;
     border-radius: 3px 0 0 3px;
-  }
- 
-  .search button {
-    position: relative;
+
+}
+
+.search button {
+    width: 40%;
     float: right;
     border: none;
     padding: 0;
     cursor: pointer;
     height: 60px;
-    width: 200px;
     color: #fff;
     border-radius: 0 3px 3px 0;
     background-color: #e7434e;
-    img{
+
+    img {
         width: 16px;
         height: 16px;
         color: #FFF;
     }
-   
-  }
-  .search button a:hover  {
+
+}
+
+.search button a:hover {
     background: #e7434e;
     color: #444;
-  }
-  .search button:active {
+}
+
+.search button:active {
     box-shadow: 0px 0px 12px 0px #e1e1e1;
-  }
+}
+
 .my-container {
     width: 1200px;
     height: 140px;
-    background-color:#fff ;
+    background-color: #fff;
     border-radius: 5px;
     margin-left: 80px;
     bottom: -100%;
     transform: translatey(-50%);
-    
-   
+
+
 }
+
 .my-row {
     justify-content: center;
     border: 1px solid black;
 }
 
+header {
+    background-image: url(../img/cover.png);
+    height: 850px;
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-color: #555555;
+}
+
+.botbar {
+    width: 1200px;
+    height: 140px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(52, 52, 52, 0.15);
+
+    .striong {
+        font-size: 30px;
+    }
+
+    font-size: 18px;
+
+}
+
+.bordis {
+    border-right: 1px solid #d4d4d4;
+    transform: translatey(50%);
+}
+
+.bordib {
+    border-right: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+    transform: translatey(50%);
+}
+
+.botbar {
+    bottom: 70px;
+
+}
+
+.borc {
+    transform: translatey(50%);
+}
+
+.bors {
+    transform: translatey(50%);
+}
+
+.mystyletext {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.promo {
+    text-align: center;
 
 
+    .font-size-p {
+        font-size: 16px;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .font-size-h4 {
+        font-size: 30px;
+    }
+
+}
+
+.card-row {
+    width: 1170px;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+
+    .part1 {
+        width: 60%;
+        height: 360px;
+
+        img {
+            width: 100%;
+            height: 360px;
+            border-radius: 5px;
+        }
+    }
+
+    .part2 {
+        width: 40%;
+        height: 360px;
+
+        img {
+            height: 360px;
+            max-width: 100%;
+
+        }
+    }
+
+    .part-2 {
+        width: 40%;
+        height: 360px;
+
+        img {
+            height: 360px;
+            max-width: 100%;
+            border-radius: 5px;
+        }
+    }
+}
+
+.boaticon {
+    bottom: 350px;
+    left: 20px;
+    background-color: #e7434e;
+    width: 82px;
+    height: 42px;
+    color: #FFF;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+.imgpromo {
+    bottom: 130px;
+    left: 25px;
+
+
+}
+
+.myblog {
+    width: 33.333333%;
+    margin-top: 33px;
+    margin-bottom: 100px;
+    height: 360px;
+
+}
+
+.img {
+    max-width: 100%;
+    border-radius: 5%;
+    height: 360px;
+}
+.load-more  {
+  color: #343434;
+  font-size: 14px;
+}
+
+.btn {
+    
+    width: 25%;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    padding: 15px;
+}
